@@ -10,7 +10,7 @@
 
 ## Try it Out
 
-https://aiimagegeneration-online.preview-domain.com/
+https://aiimagegeneration.online/
 
 ## Built With
 

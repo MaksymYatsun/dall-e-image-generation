@@ -48,7 +48,7 @@ const CreatePost = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://dall-e-image-generation-12ss.onrender.com/api/v1/posts",
+          "https://dall-e-image-generation-12ss.onrender.com/api/v1/post",
           {
             method: "POST",
             headers: {
@@ -62,8 +62,7 @@ const CreatePost = () => {
         alert("Success");
         navigate("/");
       } catch (err) {
-        console.log(1);
-        alert(err);
+        console.log(err);
       } finally {
         setLoading(false);
       }
